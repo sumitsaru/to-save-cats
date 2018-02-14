@@ -4,3 +4,35 @@ body{
   border-radius: 10px;
   margin-bottom: 0px;
 }
+
+.navigation{
+  margin: 50px;
+}
+
+ul.navigation li {
+  display: inline;
+  margin: 10px;
+}
+
+ul.navigation li a{
+  color: black;
+  background-color: lightgray;
+  border-radius: 5px;
+  padding: 5px 10px;
+  text-decoration: none; /* Remove the underline. */
+  transition: all.5s;  /*Transition property.*/
+  font-size: 25px;
+}
+ul.navigation li a:hover{
+  text-decoration: underline;
+  background-color: #fff;
+  color: green;
+  border-radius: 100px;
+}
+
+/*To put the navigation bar on top of the page.  */
+.theHeader{
+  position: fixed;
+  top: 0;
+  right:600px;
+}
