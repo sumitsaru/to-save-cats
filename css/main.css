@@ -1,8 +1,10 @@
+
 body{
   text-align: center;
   border: 2px solid blue;
   border-radius: 10px;
   margin-bottom: 0px;
+  font-family: italic;
 }
 
 .navigation{
@@ -35,4 +37,125 @@ ul.navigation li a:hover{
   position: fixed;
   top: 0;
   right:600px;
+}
+
+/*-----------------------------------------------------  */
+
+body{
+  border: 50px solid lightgreen;
+  padding: 70px;
+  margin: 100px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.theBody{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK4D-fHq4rVlHf_Chq4w4BViera8evxNrIzsB0D-hPOmt-HhNPeQ);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.navigation{
+  margin: 50px;
+}
+ul.navigation li a{
+  font-size: 25px;
+}
+
+ul.navigation li {
+  display: inline;
+  margin: 10px;
+}
+
+ul.navigation li a{
+  color: black;
+  background-color: lightgray;
+  border-radius: 5px;
+  padding: 5px 10px;
+  text-decoration: none; /* Remove the underline. */
+  transition: all.5s;  /*Transition property.*/
+}
+ul.navigation li a:hover{
+  text-decoration: underline;
+  background-color: #fff;
+  color: green;
+  border-radius: 100px;
+}
+
+/*To put the navigation bar on top of the page.  */
+.theHeader{
+  position: absolute;
+  top: 0;
+  right:400px;
+}
+
+
+#picture{
+  width:25%;
+  height:25%;
+  float: left;
+  border: 10px solid #ED2939;
+  border-radius: 10px;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+input {
+  background-color: lightblue;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+textarea{
+  background-color: lightblue;
+  border-radius: 10px;
+}
+
+label{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.toContact
+{
+  text-align: center;
+  border: 25px solid violet;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+
+.toContact p
+{
+  font-size: 25px;
+  margin: 0;
+}
+
+button{
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: violet;
+}
+
+.theMainDiv{
+  border: 50px solid yellow;
+  border-radius: 10px;
+  background-color: lightblue;
+  padding: 10px;
+}
+
+.theMainDiv p{
+  font-family: sans-serif;
+  font-size: 25px;
+  text-align: left;
+}
+
+.container{
+
 }
