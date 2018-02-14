@@ -1,0 +1,8 @@
+body {
+  font-family: 16px, Helvetica, Arial, sans-serif;
+}
+
+.head {
+  box-sizing: border-box;
+  float: left 50px;
+}
