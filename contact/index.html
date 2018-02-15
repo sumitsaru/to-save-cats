@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+    <!-- <link rel="stylesheet" href="css/reset.css"> -->
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale= 1">
+  </head>
+  <body>
+    <header class="theHeader">
+      <nav>
+        <ul class="navigation">
+          <li><a href="about_me.html">About Me</a></li>
+          <li><a href="contact_me.html" >Contact Me</a></li>
+          <li><a href="products.html"
+            id="toDisplay">Products</a></li>
+          <li><a href="offers_promotions.html"
+            id="toDisplay1">Offers & Promotions</a></li>
+          <li><a href="videos.html"
+            id="toDisplay2">Videos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="toContact">
+       <h1> <u>My Contact Info:</u> </h1>
+       <p> <b><u>Address:</u> </b>1601 Cherry Street, Suite 100</p>
+       <p> Philadelphia,PA 19102</p>
+       <p> <b><u>Phone#:</u></b> 484-632-4233</p>
+       <p> <b><u>Email:</u></b>mtounkara90@gmail.com</p><br><br>
+
+       <form class="theForm" action="https://www.google.com" method="Submit">
+
+        <label for="theFirstName">First Name:</label>
+        <input type="text"name="firstName" placeholder="Your First Name">
+
+        <label for="theLastName">Last Name:<input type="text"
+         name="lastName" placeholder="Your Last Name"></label><br><br><br>
+
+
+
+         <div class="container">
+           <div class="row">
+             <div class="column">
+
+
+
+         <label for="theEmail">Email:<input type="text"
+         name="emailAddress" placeholder ="Your Email Address">
+        </label><br><br><br>
+
+        <label for="thePhoneNumber">Phone:<input type="text"
+         name="phoneNumber" placeholder="Your Phone Number">
+        </label><br><br><br>
+
+        <label for="bestTimeToCall">Best Time To Call:<input type="text"
+         name="BTTC" placeholder="Best Time To call">
+         </label><br><br><br>
+
+            </div>
+         </div>
+      </div>
+
+
+
+        <label for="Message">Message:
+          <textarea name="theMessage" placeholder="Type your message"
+          rows="8" cols="80">
+        </textarea>
+
+      </label><br><br><br>
+
+      <button type="submit" name="toSubmit" value="Submit">Submit</button>
+
+       </form>
+
+    </div>
+
+     <!--Relaxing music-->
+    <audio src="https://www.youtube.com/watch?v=77ZozI0rw7w"
+    autoplay id="theMusic">
+    </audio>
+
+<script src="js/main.js" charset="utf-8"></script>
+  </body>
+</html>
