@@ -1,3 +1,51 @@
-body {
-  font-family: inherit;
+body{
+  color:  red;
+  font-size: 16px Helvetica, Arial ,Serif;
+  background-color: #fff; /* hex value for white */
+  background-image: url('../img/Cat.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  text-align: center;
+}
+
+p {
+  color: white;
+  background-color: rgba(0, 0, 0, .5);
+  text-align: center;
+  width: 200px;
+  width: 80%;
+  border: 1px solid green;
+  font-size: 1em;
+}
+
+
+.nav-main{
+  margin: 50px;
+}
+
+ul.nav-main {
+ padding: 0;
+ margin: 50px;
+}
+
+ul.nav-main li {
+  display: inline;
+  margin: 10px;
+}
+
+ul.nav-main li a{
+  color: black;
+  background-color: blue;
+  border-radius: 5px;
+  padding: 10px 5px 8px;
+  text-decoration: none;/* remove the underline */
+  /* proerty to transition, transition timing*/
+  transition: color .5s;
+}
+ul.nav-main li a:hover {
+  text-decoration: underline;
+  background-color: #fff;
+  color: green;
+  border-radius: 10pz;
 }
