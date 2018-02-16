@@ -17,6 +17,7 @@ p {
   width: 80%;
   border: 1px solid green;
   font-size: 1em;
+  padding: inherit;
 }
 
 .nav-main{
