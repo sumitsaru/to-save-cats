@@ -1,45 +1,12 @@
 
-body{
-  text-align: center;
-  border: 2px solid blue;
-  border-radius: 10px;
-  margin-bottom: 0px;
-  font-family: italic;
-}
+/*
+Name: Matt Tounkara
+Date: 01/30/2018
+Description: This is the CSS file for the to save the cats homework.
+its role is to create style for the index.html of the about, contact us and
+donations pages.
 
-.navigation{
-  margin: 50px;
-}
-
-ul.navigation li {
-  display: inline;
-  margin: 10px;
-}
-
-ul.navigation li a{
-  color: black;
-  background-color: lightgray;
-  border-radius: 5px;
-  padding: 5px 10px;
-  text-decoration: none; /* Remove the underline. */
-  transition: all.5s;  /*Transition property.*/
-  font-size: 25px;
-}
-ul.navigation li a:hover{
-  text-decoration: underline;
-  background-color: #fff;
-  color: green;
-  border-radius: 100px;
-}
-
-/*To put the navigation bar on top of the page.  */
-.theHeader{
-  position: fixed;
-  top: 0;
-  right:600px;
-}
-
-/*-----------------------------------------------------  */
+ */
 
 body{
   border: 50px solid lightgreen;
@@ -47,6 +14,7 @@ body{
   margin: 100px;
   background-color: white;
   border-radius: 10px;
+  text-align: center;
 }
 
 .theBody{
