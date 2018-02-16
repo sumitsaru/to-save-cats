@@ -19,23 +19,24 @@ p {
   font-size: 1em;
 }
 
-
 .nav-main{
   margin: 50px;
 }
 
 ul.nav-main {
  padding: 0;
- margin: 50px;
+ margin: 0;
 }
 
 ul.nav-main li {
   display: inline;
   margin: 10px;
+
 }
 
 ul.nav-main li a{
   color: black;
+  border: 5px solid green;
   background-color: blue;
   border-radius: 5px;
   padding: 10px 5px 8px;
@@ -47,5 +48,5 @@ ul.nav-main li a:hover {
   text-decoration: underline;
   background-color: #fff;
   color: green;
-  border-radius: 10pz;
+  border-radius: 10px;
 }
