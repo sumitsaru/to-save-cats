@@ -1,0 +1,76 @@
+body{
+  color: black;
+  font-size: 16px Helvetica, Arial ,Serif;
+  background-color: rgb(255, 230, 230);
+  background-image: url('../img/Cat.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  text-align: center;
+}
+
+.p {
+  color: white;
+  float: right;
+  background-color: rgba(0, 0, 0, .5);
+  text-align: center;
+  width: 80%;
+  border: 1px solid green;
+  font-size: 1em;
+  padding: inherit;
+
+}
+
+.nav-main{
+  margin: 50px;
+}
+
+ul.nav-main {
+ padding: 0;
+ margin: 0;
+}
+
+ul.nav-main li {
+  display: inline;
+  margin: 5px;
+
+}
+
+ul.nav-main li a{
+  color: black;
+  border: 2px solid black;
+  background-color: aqua;
+  border-style: box 50px;
+  padding: 10px 25px 8px;
+  text-decoration: none;/* remove the underline */
+  /* proerty to transition, transition timing*/
+  transition: color .5s;
+}
+ul.nav-main li a:hover {
+  text-decoration: underline;
+  background-color: #fff;
+  color: green;
+  border-radius: 10px;
+}
+form{
+  margin-right: 200px;
+  margin-top: 25px;
+}
+
+  form input {
+  background-color: #FAEBD7;
+  border: 2px solid black;
+  border-style: box 10px;
+  padding: 6px 5px;
+}
+
+form input:focus {
+  outline-style: none;
+}
+
+
+fieldset{
+  position: relative;
+  margin-top: 50px;
+  background-color: none;
+}
