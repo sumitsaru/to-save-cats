@@ -6,3 +6,8 @@ body{
   padding: 50px;
   text-align: center;
 }
+#catPicture{
+  width: 25%;
+  height: 25%;
+  float: left;
+}
