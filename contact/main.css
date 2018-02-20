@@ -1,20 +1,21 @@
-
 /*
 Name: Matt Tounkara
 Date: 01/30/2018
 Description: This is the CSS file for the to save the cats homework.
 its role is to create style for the index.html of the about, contact us and
 donations pages.
+*/
 
- */
- /* *{
+ *{
    box-sizing: border-box;
- } */
+ }
 
  .container{
    display: grid;
    border: 10px dotted red;
-   width: 68em;
+   width: 60em;
+
+  right: 450px;
  }
 
  .row{
@@ -32,21 +33,6 @@ donations pages.
      width: 200px;
  }
 
- div.col-1-3:hover {
-     border: 5px solid gray;
-     border-radius: 10px;
- }
-
- div.col-1-3 img {
-     width: 100%;
-     height: auto;
-
- }
-
- div.desc {
-     padding: 15px;
-     text-align: center;
- }
 
  /*add a media query */
 @media all and (min-width: 480px){
@@ -54,8 +40,8 @@ donations pages.
   /* classes for a 4 columns grid. */
   /* Take up one of a possible 4 columns. */
 
-.col-1-3{
-  width: 33%;
+.col-1-1{
+  width: 100%;
 }
 
 }
@@ -65,7 +51,7 @@ body{
   border: 25px solid lightgreen;
   padding: 70px;
   margin: 100px;
-  background-image: linear-gradient(white, yellow, green);
+  /* background-image: linear-gradient(white, yellow, green); */
   border-radius: 10px;
   text-align: center;
   margin-top: auto;
@@ -74,7 +60,7 @@ body{
 .theHeader{
   position: absolute;
   top: 50px;
-  width: 69em;
+  width: 68em;
   height: 10em;
   border-radius: 10px;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK4D-fHq4rVlHf_Chq4w4BViera8evxNrIzsB0D-hPOmt-HhNPeQ);
@@ -152,6 +138,7 @@ label{
   border: 25px solid violet;
   padding-bottom: 20px;
   border-radius: 10px;
+  margin-top: 50px;
 }
 
 .toContact p

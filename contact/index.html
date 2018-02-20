@@ -1,14 +1,24 @@
+<!--
+Name: Matt Tounkara
+Date: 01/30/2018
+Description: The purpose of this assignment is to implement
+a webpage to present ourself.
+We are supposed to complete it by using both html and css.
+My webpage has the index.html,
+about_me.html, contact_me.html, offers_promotions.html, videos.html files.
+-->
+
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Contact Me</title>
+    <title>Contact Us</title>
     <!-- <link rel="stylesheet" href="css/reset.css"> -->
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="main.css">
     <meta name="viewport" content="width=device-width, initial-scale= 1">
+
   </head>
   <body>
-
     <header class="theHeader">
     <nav>
       <ul class="navigation">
@@ -37,11 +47,9 @@
 
 
 
-         <!-- <div class="container">
-           <div class="row">
-             <div class="column"> -->
-
-
+    <div class="container">
+      <div class="row">
+        <div class="col-1-1">
 
          <label for="theEmail">Email:<input type="text"
          name="emailAddress" placeholder ="Your Email Address">
@@ -51,17 +59,22 @@
          name="phoneNumber" placeholder="Your Phone Number">
         </label><br><br><br>
 
-        <label for="bestTimeToCall">Best Time To Call:<input type="text"
-         name="BTTC" placeholder="Best Time To call">
-         </label><br><br><br>
-
+      <div class="container">
+          <div class="row">
+            <div class="col-1-1">
+            <label for="bestTimeToCall">Best Time To Call:<input type="text"
+             name="BTTC" placeholder="Best Time To call">
+             </label><br><br><br>
+           </div>
+        </div>
+     </div>
             </div>
          </div>
       </div>
 
 
 
-        <label for="Message">Message:
+         <label for="Message">Message:
           <textarea name="theMessage" placeholder="Type your message"
           rows="8" cols="80">
         </textarea>
@@ -74,11 +87,6 @@
 
     </div>
 
-     <!--Relaxing music-->
-    <audio src="https://www.youtube.com/watch?v=77ZozI0rw7w"
-    autoplay id="theMusic">
-    </audio>
 
-<script src="js/main.js" charset="utf-8"></script>
   </body>
 </html>
