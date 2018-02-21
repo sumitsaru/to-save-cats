@@ -11,11 +11,8 @@ donations pages.
  }
 
  .container{
-   display: grid;
    border: 10px dotted red;
    width: 60em;
-
-  right: 450px;
  }
 
  .row{
@@ -24,13 +21,6 @@ donations pages.
   border: 2px solid blue;
   padding-left: 200px;
   border-radius: 10px;
- }
-
- div.col-1-3 {
-     margin: 5px;
-     border: 1px solid #ccc;
-     float: left;
-     width: 200px;
  }
 
 
@@ -42,6 +32,7 @@ donations pages.
 
 .col-1-1{
   width: 100%;
+
 }
 
 }
