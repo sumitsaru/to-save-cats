@@ -72,15 +72,15 @@ body{
 }
 /*To put the navigation bar on top of the page.  */
 .theHeader{
-  position: absolute;
-  top: 50px;
-  width: 69em;
-  height: 10em;
+  /* position: absolute;
+  top: 50px; */
   border-radius: 10px;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK4D-fHq4rVlHf_Chq4w4BViera8evxNrIzsB0D-hPOmt-HhNPeQ);
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 #theHeading{
@@ -103,7 +103,7 @@ body{
 } */
 
 .navigation{
-  margin: 78px;
+
 }
 
 ul.navigation li a{
