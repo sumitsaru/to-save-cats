@@ -1,6 +1,6 @@
 /*
 Name: Matt Tounkara
-Date: 01/30/2018
+Date: 02/22/2018
 Description: This is the CSS file for the to save the cats homework.
 its role is to create style for the index.html of the about, contact us and
 donations pages.
@@ -10,75 +10,42 @@ donations pages.
    box-sizing: border-box;
  }
 
- .container{
-   border: 10px dotted red;
-   width: 60em;
- }
-
  .row{
-   clear: both; /* Forces new block context we can expect*/
-   overflow: auto;  /* Forces the row to have a height.*/
-  border: 2px solid blue;
-  padding-left: 200px;
+  clear: both; /* Forces new block context we can expect*/
+  overflow: auto;  /* Forces the row to have a height.*/
   border-radius: 10px;
+
+  /* padding-left: 200px;  It was the problem !!! */
+
  }
 
 
  /*add a media query */
 @media all and (min-width: 480px){
 
-  /* classes for a 4 columns grid. */
-  /* Take up one of a possible 4 columns. */
-
-.col-1-1{
+.col-sm-12{
   width: 100%;
-
 }
 
 }
-
 
 body{
   border: 25px solid lightgreen;
   padding: 70px;
   margin: 100px;
-  /* background-image: linear-gradient(white, yellow, green); */
   border-radius: 10px;
-  text-align: center;
   margin-top: auto;
 }
 /*To put the navigation bar on top of the page.  */
 .theHeader{
-  position: absolute;
-  top: 50px;
-  width: 68em;
-  height: 10em;
   border-radius: 10px;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK4D-fHq4rVlHf_Chq4w4BViera8evxNrIzsB0D-hPOmt-HhNPeQ);
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  /* background-image: image(playingCat.jpg); */
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
-
-#theHeading{
-  width: 100%;
-  height: 100%;
-  border: 7px solid black;
-  background-color: white;
-  border-radius: 10px;
-  color: violet;
-  font-size: 3em;
-  animation-direction:alternate;
-}
-
-
-/* .catsPictures{
-  border: 10px dotted red;
-  border-spacing: 25px;
-  width: 69em;
-  background-color: white;
-} */
 
 .navigation{
   margin: 78px;
@@ -117,6 +84,8 @@ input {
 textarea{
   background-color: lightblue;
   border-radius: 10px;
+  padding-left: 50px;
+  margin-right: 25px
 }
 
 label{
