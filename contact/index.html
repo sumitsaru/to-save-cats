@@ -2,7 +2,7 @@
 Name: Matt Tounkara
 Date: 02/22/2018
 Description: The purpose of this assignment is to implement
-a webpage to 
+a webpage to
 -->
 
 <!DOCTYPE html>
@@ -13,6 +13,7 @@ a webpage to
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="main.css">
+    <script src="../js/main.js" charset="utf-8"></script>
     <!-- <meta name="viewport" content="width=device-width, initial-scale= 1"> -->
   </head>
   <body>
@@ -35,7 +36,7 @@ a webpage to
        <p> <b><u>Phone#:</u></b> 484-632-4233</p>
        <p> <b><u>Email:</u></b>mtounkara90@gmail.com</p><br><br>
 
-  <form class="theForm" action="https://www.google.com" method="Submit">
+  <form class="theForm" action="../index.html" method="post" onsubmit="return toValidate()">
 
         <label for="theFirstName">First Name:</label>
         <input type="text"name="firstName" placeholder="Your First Name">
