@@ -1,27 +1,27 @@
 
 /*
 Name: Matt Tounkara
-Date: 01/30/2018
+Date: 02/22/2018
 Description: This is the CSS file for the to save the cats homework.
 its role is to create style for the index.html of the about, contact us and
 donations pages.
 
  */
- /* *{
+ *{
    box-sizing: border-box;
- } */
+ }
 
  .container{
-   display: grid;
-   border: 10px dotted red;
+   /* border: 10px dotted red; */
    width: 68em;
  }
 
  .row{
    clear: both; /* Forces new block context we can expect*/
    overflow: auto;  /* Forces the row to have a height.*/
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   padding-left: 200px;
+  padding-right: 0px;
   border-radius: 10px;
  }
 
