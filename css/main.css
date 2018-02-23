@@ -19,7 +19,7 @@ donations pages.
  .row{
    clear: both; /* Forces new block context we can expect*/
    overflow: auto;  /* Forces the row to have a height.*/
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   padding-left: 200px;
   padding-right: 0px;
   border-radius: 10px;
