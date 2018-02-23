@@ -93,7 +93,7 @@ body{
   }
 }
 #theHeading {
-  animation: slidein 3s;
+  animation: slidein 2s;
   background-color: green;
 }
 
