@@ -3,8 +3,7 @@
 Name: Matt Tounkara
 Date: 02/22/2018
 Description: This is the CSS file for the to save the cats homework.
-its role is to create style for the index.html of the about, contact us and
-donations pages.
+its role is to create style for the index.html of the main page.
 
  */
  *{
@@ -50,10 +49,8 @@ donations pages.
 
  /*add a media query */
 @media all and (min-width: 480px){
-
   /* classes for a 4 columns grid. */
   /* Take up one of a possible 4 columns. */
-
 .col-1-3{
   width: 33%;
 }
@@ -70,10 +67,10 @@ body{
   text-align: center;
   margin-top: auto;
 }
+
 /*To put the navigation bar on top of the page.  */
 .theHeader{
-  /* position: absolute;
-  top: 50px; */
+
   border-radius: 10px;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK4D-fHq4rVlHf_Chq4w4BViera8evxNrIzsB0D-hPOmt-HhNPeQ);
   background-repeat: no-repeat;
