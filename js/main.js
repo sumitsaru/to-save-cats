@@ -17,7 +17,7 @@ us form's data entry by the user, before being submitted to the server.
 //     alert('You need to enter a name.');
 //   }
 // }
-
+console.log('Hello there');
 function validateForm() {
     var x = document.forms["theForm"]["firstName"].value;
     if (x == " ") {

@@ -6,8 +6,6 @@ The purpose of the homework is to implement a donation website to raise funds
 for the sake of the world's cats. My teammates and I implemented four pages within
 our website: the main page index.html; the about us page; the contact us page and
 the donations page.
-
-
 -->
 
 <!DOCTYPE html>
@@ -44,10 +42,10 @@ the donations page.
   <form class="theForm" action=" " method="post" onsubmit="return validateForm()">
 
         <label for="theFirstName">First Name:</label>
-        <input type="text" name="firstName" placeholder="Your First Name">
+        <input type="text" name="firstName" placeholder="Your First Name" required>
 
         <label for="theLastName">Last Name:<input type="text"
-         name="lastName" placeholder="Your Last Name"></label><br><br>
+         name="lastName" placeholder="Your Last Name" required></label><br><br>
 
 
 
@@ -56,15 +54,15 @@ the donations page.
         <div class="col-sm-12">
 
          <label for="theEmail">Email:<input type="text"
-           name="emailAddress" placeholder ="Your Email Address">
+           name="emailAddress" placeholder ="Your Email Address" required>
          </label><br><br>
 
-         <label for="thePhoneNumber">Phone:<input type="text"
-            name="phoneNumber" placeholder="Your Phone Number">
+         <label for="thePhoneNumber">Phone:<input type="number"
+            name="phoneNumber" placeholder="Your Phone Number" required>
          </label><br><br>
 
          <label for="bestTimeToCall">BTTC:<input type="text"
-             name="BTTC" placeholder="Best Time To call">
+             name="BTTC" placeholder="Best Time To call" required>
          </label><br><br>
 
          <label for="Message">Message:
