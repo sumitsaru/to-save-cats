@@ -36,6 +36,7 @@ body{
   border-radius: 10px;
   margin-top: auto;
 }
+
 /*To put the navigation bar on top of the page.  */
 .theHeader{
   border-radius: 10px;
@@ -85,7 +86,7 @@ textarea{
   background-color: lightblue;
   border-radius: 10px;
   padding-left: 50px;
-  margin-right: 25px
+  margin-right: 10px;
 }
 
 label{
